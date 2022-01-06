@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto',monospace;
+    min-height: 600px;
+    background-image: url('https://img.elo7.com.br/product/zoom/2CA8C5A/fundo-fotografico-em-tecido-ceu-estrelado-2-60x1-50m-decoracao-festa-infantil.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+h2{
+  color: white;
+  font-family: "roboto";
+  position: absolute;
+  font-size:20px;
+  font-weight:bold;
+  top: 142px;
+  left: calc(50% - 72.5px);
+  width: 155px;
+  text-align:center;
+}
+h3{
+  color: white;
+  font-family: "roboto";
+  position: absolute;
+  font-size:21px;
+  font-weight:bold;
+  top: 162px;
+  left: calc(50% - 72.5px);
+  width: 149px;
+  text-align:center;
+}
+
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
